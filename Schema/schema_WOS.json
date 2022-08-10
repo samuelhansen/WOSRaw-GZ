@@ -1,0 +1,2794 @@
+{
+    "$count": 84162157,
+    "@r_id_disclaimer": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "UID": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:EWUID:WUID:@coll_id": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:EWUID:edition:@value": {
+        "$count": 74002340,
+        "$types": {
+            "string": 74002340
+        }
+    },
+    "static_data:summary:pub_info:@sortdate": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:@pubyear": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:@has_abstract": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:@coverdate": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:@pubmonth": {
+        "$count": 52694563,
+        "$types": {
+            "string": 52694563
+        }
+    },
+    "static_data:summary:pub_info:@vol": {
+        "$count": 75467411,
+        "$types": {
+            "string": 75467411
+        }
+    },
+    "static_data:summary:pub_info:@pubtype": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:page:@begin": {
+        "$count": 76075499,
+        "$types": {
+            "string": 76075499
+        }
+    },
+    "static_data:summary:pub_info:page:@end": {
+        "$count": 76075497,
+        "$types": {
+            "string": 76075497
+        }
+    },
+    "static_data:summary:pub_info:page:@page_count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:page:#text": {
+        "$count": 76075494,
+        "$types": {
+            "string": 76075494
+        }
+    },
+    "static_data:summary:titles:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:titles:title": {
+        "$count": 84162157,
+        "$schemaEntry": {
+            "$count": 491548637,
+            "@type": {
+                "$count": 491548637,
+                "$types": {
+                    "string": 491548637
+                }
+            },
+            "#text": {
+                "$count": 491548637,
+                "$types": {
+                    "string": 491548637
+                }
+            },
+            "@translated": {
+                "$count": 5608407,
+                "$types": {
+                    "string": 5608407
+                }
+            }
+        },
+        "$types": {
+            "list": 84162157
+        }
+    },
+    "static_data:summary:names:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:names:name": {
+        "$count": 61764058,
+        "$schemaEntry": {
+            "$count": 299841065,
+            "@seq_no": {
+                "$count": 299841065,
+                "$types": {
+                    "string": 299841065
+                }
+            },
+            "@role": {
+                "$count": 299841065,
+                "$types": {
+                    "string": 299841065
+                }
+            },
+            "display_name": {
+                "$count": 299831238,
+                "$types": {
+                    "string": 299831238
+                }
+            },
+            "full_name": {
+                "$count": 299831238,
+                "$types": {
+                    "string": 299831238
+                }
+            },
+            "wos_standard": {
+                "$count": 297653904,
+                "$types": {
+                    "string": 297653904
+                }
+            },
+            "first_name": {
+                "$count": 288958230,
+                "$types": {
+                    "string": 288958230
+                }
+            },
+            "last_name": {
+                "$count": 294468925,
+                "$types": {
+                    "string": 294468925
+                }
+            },
+            "suffix": {
+                "$count": 3611747,
+                "$types": {
+                    "string": 3611747
+                }
+            },
+            "@reprint": {
+                "$count": 47303949,
+                "$types": {
+                    "string": 47303949
+                }
+            },
+            "@addr_no": {
+                "$count": 168460043,
+                "$types": {
+                    "string": 168460043
+                }
+            },
+            "email_addr": {
+                "$count": 50252443,
+                "$types": {
+                    "string": 50252443
+                }
+            },
+            "@orcid_id_tr": {
+                "$count": 4406215,
+                "$types": {
+                    "string": 4406215
+                }
+            },
+            "@r_id_tr": {
+                "$count": 2021,
+                "$types": {
+                    "string": 2021
+                }
+            }
+        },
+        "$types": {
+            "list": 61764058
+        }
+    },
+    "static_data:summary:doctypes:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:doctypes:doctype": {
+        "$count": 84162157,
+        "$types": {
+            "string": 80049989,
+            "list": 4112168
+        }
+    },
+    "static_data:summary:publishers:publisher:address_spec:@addr_no": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:address_spec:full_address": {
+        "$count": 83332953,
+        "$types": {
+            "string": 83332953
+        }
+    },
+    "static_data:summary:publishers:publisher:address_spec:city": {
+        "$count": 83866254,
+        "$types": {
+            "string": 83866254
+        }
+    },
+    "static_data:summary:publishers:publisher:names:@count": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:@role": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:@seq_no": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:@addr_no": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:display_name": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:full_name": {
+        "$count": 83866809,
+        "$types": {
+            "string": 83866809
+        }
+    },
+    "static_data:summary:publishers:publisher:names:name:unified_name": {
+        "$count": 76504625,
+        "$types": {
+            "string": 76504625
+        }
+    },
+    "static_data:fullrecord_metadata:languages:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:fullrecord_metadata:languages:language:@type": {
+        "$count": 84156588,
+        "$types": {
+            "string": 84156588
+        }
+    },
+    "static_data:fullrecord_metadata:languages:language:#text": {
+        "$count": 84156588,
+        "$types": {
+            "string": 84156588
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_languages:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_languages:language:@type": {
+        "$count": 84156588,
+        "$types": {
+            "string": 84156588
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_languages:language:#text": {
+        "$count": 84156588,
+        "$types": {
+            "string": 84156588
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_doctypes:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_doctypes:doctype": {
+        "$count": 84162157,
+        "$types": {
+            "string": 80049327,
+            "list": 4112830
+        }
+    },
+    "static_data:fullrecord_metadata:references:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference": {
+        "$count": 61064178,
+        "$schemaEntry": {
+            "$count": 1877166532,
+            "@occurenceOrder": {
+                "$count": 1877166532,
+                "$types": {
+                    "string": 1877166532
+                }
+            },
+            "uid": {
+                "$count": 1875796749,
+                "$types": {
+                    "string": 1875796749
+                }
+            },
+            "year": {
+                "$count": 1859052366,
+                "$types": {
+                    "string": 1859052366
+                }
+            },
+            "page": {
+                "$count": 1594560344,
+                "$types": {
+                    "string": 1594560320,
+                    "list": 24
+                }
+            },
+            "volume": {
+                "$count": 1499204607,
+                "$types": {
+                    "string": 1499204607
+                }
+            },
+            "citedWork": {
+                "$count": 1874122428,
+                "$types": {
+                    "string": 1874122428
+                }
+            },
+            "citedAuthor": {
+                "$count": 1854167389,
+                "$types": {
+                    "string": 1854167389
+                }
+            },
+            "citedTitle": {
+                "$count": 1495403394,
+                "$types": {
+                    "string": 1495403394
+                }
+            },
+            "doi": {
+                "$count": 608508062,
+                "$types": {
+                    "string": 608508062
+                }
+            },
+            "assignee": {
+                "$count": 2589143,
+                "$types": {
+                    "string": 2589143
+                }
+            },
+            "patent_no": {
+                "$count": 2951065,
+                "$types": {
+                    "string": 2951065
+                }
+            },
+            "citedTitle:i": {
+                "$count": 946317,
+                "$schemaEntry": {
+                    "$count": 378,
+                    "sub": {
+                        "$count": 250,
+                        "$types": {
+                            "string": 247,
+                            "list": 3
+                        }
+                    },
+                    "#text": {
+                        "$count": 100,
+                        "$types": {
+                            "string": 100
+                        }
+                    },
+                    "sup": {
+                        "$count": 127,
+                        "$types": {
+                            "string": 127
+                        }
+                    },
+                    "i": {
+                        "$count": 1,
+                        "$types": {
+                            "string": 1
+                        }
+                    }
+                },
+                "$types": {
+                    "string": 760777,
+                    "list": 185540
+                }
+            },
+            "citedTitle:#text": {
+                "$count": 978011,
+                "$types": {
+                    "string": 978011
+                }
+            },
+            "citedTitle:sub": {
+                "$count": 31198,
+                "$types": {
+                    "string": 25732,
+                    "list": 5466
+                }
+            },
+            "art_no": {
+                "$count": 23658,
+                "$types": {
+                    "string": 23658
+                }
+            },
+            "citedTitle:sup": {
+                "$count": 10931,
+                "$types": {
+                    "string": 8628,
+                    "list": 2303
+                }
+            },
+            "citedTitle:i:sub": {
+                "$count": 50,
+                "$types": {
+                    "string": 48,
+                    "list": 2
+                }
+            },
+            "citedTitle:i:#text": {
+                "$count": 100,
+                "$types": {
+                    "string": 100
+                }
+            },
+            "citedTitle:i:sup": {
+                "$count": 66,
+                "$types": {
+                    "string": 66
+                }
+            },
+            "physicalSection": {
+                "$count": 12243419,
+                "$schemaEntry": {
+                    "$count": 36648606,
+                    "@physicalLocation": {
+                        "$count": 36648606,
+                        "$types": {
+                            "string": 36648606
+                        }
+                    },
+                    "#text": {
+                        "$count": 35850055,
+                        "$types": {
+                            "string": 35850055
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 12243419
+                }
+            },
+            "physicalSection:@physicalLocation": {
+                "$count": 32992750,
+                "$types": {
+                    "string": 32992750
+                }
+            },
+            "physicalSection:#text": {
+                "$count": 32213591,
+                "$types": {
+                    "string": 32213591
+                }
+            },
+            "citedTitle:sup:i": {
+                "$count": 3,
+                "$types": {
+                    "string": 3
+                }
+            }
+        },
+        "$types": {
+            "list": 61064178
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:@count": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:headings:@count": {
+        "$count": 84087580,
+        "$types": {
+            "string": 84087580
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:headings:heading": {
+        "$count": 84087580,
+        "$types": {
+            "string": 81209693,
+            "list": 2877887
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:subjects:@count": {
+        "$count": 84087580,
+        "$types": {
+            "string": 84087580
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:subjects:subject": {
+        "$count": 84087580,
+        "$schemaEntry": {
+            "$count": 256371508,
+            "@ascatype": {
+                "$count": 256371508,
+                "$types": {
+                    "string": 256371508
+                }
+            },
+            "#text": {
+                "$count": 256371508,
+                "$types": {
+                    "string": 256371508
+                }
+            }
+        },
+        "$types": {
+            "list": 84087580
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack": {
+        "$count": 0,
+        "$types": {}
+    },
+    "static_data:item:@xmlns_xsi": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:item:@xsi_type": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:item:ids:@avail": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:item:ids:#text": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:item:bib_id": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "dynamic_data:cluster_related:identifiers:identifier": {
+        "$count": 83572148,
+        "$schemaEntry": {
+            "$count": 291393187,
+            "@type": {
+                "$count": 291393187,
+                "$types": {
+                    "string": 291393187
+                }
+            },
+            "@value": {
+                "$count": 291251615,
+                "$types": {
+                    "string": 291251615
+                }
+            }
+        },
+        "$types": {
+            "list": 83572148
+        }
+    },
+    "origin": {
+        "$count": 84162157,
+        "$types": {
+            "string": 84162157
+        }
+    },
+    "static_data:summary:pub_info:@part_no": {
+        "$count": 1831009,
+        "$types": {
+            "string": 1831009
+        }
+    },
+    "static_data:summary:names:name:@seq_no": {
+        "$count": 22398099,
+        "$types": {
+            "string": 22398099
+        }
+    },
+    "static_data:summary:names:name:@role": {
+        "$count": 22398099,
+        "$types": {
+            "string": 22398099
+        }
+    },
+    "static_data:summary:names:name:display_name": {
+        "$count": 22398099,
+        "$types": {
+            "string": 22398099
+        }
+    },
+    "static_data:summary:names:name:full_name": {
+        "$count": 22398099,
+        "$types": {
+            "string": 22398099
+        }
+    },
+    "static_data:summary:names:name:wos_standard": {
+        "$count": 22395219,
+        "$types": {
+            "string": 22395219
+        }
+    },
+    "static_data:summary:names:name:first_name": {
+        "$count": 20374419,
+        "$types": {
+            "string": 20374419
+        }
+    },
+    "static_data:summary:names:name:last_name": {
+        "$count": 20737127,
+        "$types": {
+            "string": 20737127
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:subheadings:@count": {
+        "$count": 68665022,
+        "$types": {
+            "string": 68665022
+        }
+    },
+    "static_data:fullrecord_metadata:category_info:subheadings:subheading": {
+        "$count": 68665022,
+        "$types": {
+            "string": 60825701,
+            "list": 7839321
+        }
+    },
+    "static_data:summary:EWUID:edition": {
+        "$count": 10159817,
+        "$schemaEntry": {
+            "$count": 20768473,
+            "@value": {
+                "$count": 20768473,
+                "$types": {
+                    "string": 20768473
+                }
+            }
+        },
+        "$types": {
+            "list": 10159817
+        }
+    },
+    "static_data:summary:pub_info:@issue": {
+        "$count": 64026652,
+        "$types": {
+            "string": 64026652
+        }
+    },
+    "static_data:item:bib_pagecount:@type": {
+        "$count": 53670271,
+        "$types": {
+            "string": 53670271
+        }
+    },
+    "static_data:item:bib_pagecount:#text": {
+        "$count": 53670271,
+        "$types": {
+            "string": 53670271
+        }
+    },
+    "dynamic_data:ic_related:oases:@count": {
+        "$count": 16448943,
+        "$types": {
+            "string": 16448943
+        }
+    },
+    "dynamic_data:ic_related:oases:@is_OA": {
+        "$count": 16448943,
+        "$types": {
+            "string": 16448943
+        }
+    },
+    "dynamic_data:ic_related:oases:oas:@type": {
+        "$count": 8175335,
+        "$types": {
+            "string": 8175335
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name": {
+        "$count": 32146279,
+        "$schemaEntry": {
+            "$count": 105748461,
+            "address_spec:@addr_no": {
+                "$count": 105748461,
+                "$types": {
+                    "string": 105748461
+                }
+            },
+            "address_spec:full_address": {
+                "$count": 105748461,
+                "$types": {
+                    "string": 105748461
+                }
+            },
+            "address_spec:organizations:@count": {
+                "$count": 105693862,
+                "$types": {
+                    "string": 105693862
+                }
+            },
+            "address_spec:organizations:organization": {
+                "$count": 105693862,
+                "$schemaEntry": {
+                    "$count": 119802408,
+                    "@pref": {
+                        "$count": 119802408,
+                        "$types": {
+                            "string": 119802408
+                        }
+                    },
+                    "#text": {
+                        "$count": 119802408,
+                        "$types": {
+                            "string": 119802408
+                        }
+                    }
+                },
+                "$types": {
+                    "string": 15939896,
+                    "list": 89753966
+                }
+            },
+            "address_spec:city": {
+                "$count": 105748454,
+                "$types": {
+                    "string": 105748454
+                }
+            },
+            "address_spec:state": {
+                "$count": 48265407,
+                "$types": {
+                    "string": 48265407
+                }
+            },
+            "address_spec:country": {
+                "$count": 105748461,
+                "$types": {
+                    "string": 105748461
+                }
+            },
+            "address_spec:suborganizations:@count": {
+                "$count": 78405276,
+                "$types": {
+                    "string": 78405276
+                }
+            },
+            "address_spec:suborganizations:suborganization": {
+                "$count": 78405276,
+                "$types": {
+                    "string": 52393713,
+                    "list": 26011563
+                }
+            },
+            "address_spec:zip:@location": {
+                "$count": 62781375,
+                "$types": {
+                    "string": 62781375
+                }
+            },
+            "address_spec:zip:#text": {
+                "$count": 62781375,
+                "$types": {
+                    "string": 62781375
+                }
+            },
+            "names:@count": {
+                "$count": 79992111,
+                "$types": {
+                    "string": 79992111
+                }
+            },
+            "names:name:@seq_no": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:@role": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:@reprint": {
+                "$count": 11028670,
+                "$types": {
+                    "string": 11028670
+                }
+            },
+            "names:name:@addr_no": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:display_name": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:full_name": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:wos_standard": {
+                "$count": 46729723,
+                "$types": {
+                    "string": 46729723
+                }
+            },
+            "names:name:first_name": {
+                "$count": 46310628,
+                "$types": {
+                    "string": 46310628
+                }
+            },
+            "names:name:last_name": {
+                "$count": 46722254,
+                "$types": {
+                    "string": 46722254
+                }
+            },
+            "names:name": {
+                "$count": 33262388,
+                "$schemaEntry": {
+                    "$count": 118336071,
+                    "@seq_no": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "@role": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "@reprint": {
+                        "$count": 20087174,
+                        "$types": {
+                            "string": 20087174
+                        }
+                    },
+                    "@addr_no": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "@r_id": {
+                        "$count": 17978210,
+                        "$types": {
+                            "string": 17978210
+                        }
+                    },
+                    "display_name": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "full_name": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "wos_standard": {
+                        "$count": 118336071,
+                        "$types": {
+                            "string": 118336071
+                        }
+                    },
+                    "first_name": {
+                        "$count": 116942373,
+                        "$types": {
+                            "string": 116942373
+                        }
+                    },
+                    "last_name": {
+                        "$count": 118325898,
+                        "$types": {
+                            "string": 118325898
+                        }
+                    },
+                    "email_addr": {
+                        "$count": 27435715,
+                        "$types": {
+                            "string": 27435715
+                        }
+                    },
+                    "suffix": {
+                        "$count": 439135,
+                        "$types": {
+                            "string": 439135
+                        }
+                    },
+                    "@orcid_id_tr": {
+                        "$count": 3381519,
+                        "$types": {
+                            "string": 3381519
+                        }
+                    },
+                    "@r_id_tr": {
+                        "$count": 652,
+                        "$types": {
+                            "string": 652
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 33262388
+                }
+            },
+            "names:name:suffix": {
+                "$count": 201494,
+                "$types": {
+                    "string": 201494
+                }
+            },
+            "address_spec:street": {
+                "$count": 13889302,
+                "$types": {
+                    "string": 13889302
+                }
+            },
+            "names:name:@r_id": {
+                "$count": 8417791,
+                "$types": {
+                    "string": 8417791
+                }
+            },
+            "address_spec:zip": {
+                "$count": 784944,
+                "$schemaEntry": {
+                    "$count": 1569889,
+                    "@location": {
+                        "$count": 1569889,
+                        "$types": {
+                            "string": 1569889
+                        }
+                    },
+                    "#text": {
+                        "$count": 1569889,
+                        "$types": {
+                            "string": 1569889
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 784944
+                }
+            },
+            "names:name:email_addr": {
+                "$count": 14630253,
+                "$types": {
+                    "string": 14630253
+                }
+            },
+            "names:name:@orcid_id_tr": {
+                "$count": 1626721,
+                "$types": {
+                    "string": 1626721
+                }
+            },
+            "names:name:@r_id_tr": {
+                "$count": 1044,
+                "$types": {
+                    "string": 1044
+                }
+            }
+        },
+        "$types": {
+            "list": 32146279
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:@occurenceOrder": {
+        "$count": 6373278,
+        "$types": {
+            "string": 6373278
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:uid": {
+        "$count": 6371153,
+        "$types": {
+            "string": 6371153
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedAuthor": {
+        "$count": 6048157,
+        "$types": {
+            "string": 6048157
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:year": {
+        "$count": 5454594,
+        "$types": {
+            "string": 5454594
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedWork": {
+        "$count": 6371315,
+        "$types": {
+            "string": 6371315
+        }
+    },
+    "static_data:item:reviewed_work:languages:@count": {
+        "$count": 2349243,
+        "$types": {
+            "string": 2349243
+        }
+    },
+    "static_data:item:reviewed_work:languages:language": {
+        "$count": 2349243,
+        "$types": {
+            "string": 2342375,
+            "list": 6868
+        }
+    },
+    "static_data:item:reviewed_work:rw_authors:@count": {
+        "$count": 2310006,
+        "$types": {
+            "string": 2310006
+        }
+    },
+    "static_data:item:reviewed_work:rw_authors:rw_author": {
+        "$count": 2310006,
+        "$types": {
+            "string": 1827615,
+            "list": 482391
+        }
+    },
+    "static_data:item:reviewed_work:rw_year": {
+        "$count": 2107825,
+        "$types": {
+            "string": 2107825
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:@addr_no": {
+        "$count": 29399852,
+        "$types": {
+            "string": 29399852
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:full_address": {
+        "$count": 29399852,
+        "$types": {
+            "string": 29399852
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:organizations:@count": {
+        "$count": 29375919,
+        "$types": {
+            "string": 29375919
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:organizations:organization": {
+        "$count": 29375919,
+        "$schemaEntry": {
+            "$count": 33160732,
+            "@pref": {
+                "$count": 33160732,
+                "$types": {
+                    "string": 33160732
+                }
+            },
+            "#text": {
+                "$count": 33160732,
+                "$types": {
+                    "string": 33160732
+                }
+            }
+        },
+        "$types": {
+            "list": 25426831,
+            "string": 3949088
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:suborganizations:@count": {
+        "$count": 16969594,
+        "$types": {
+            "string": 16969594
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:suborganizations:suborganization": {
+        "$count": 16969594,
+        "$types": {
+            "string": 11950839,
+            "list": 5018755
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:city": {
+        "$count": 29399851,
+        "$types": {
+            "string": 29399851
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:state": {
+        "$count": 15091926,
+        "$types": {
+            "string": 15091926
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:country": {
+        "$count": 29399849,
+        "$types": {
+            "string": 29399849
+        }
+    },
+    "dynamic_data:cluster_related:identifiers:identifier:@type": {
+        "$count": 590009,
+        "$types": {
+            "string": 590009
+        }
+    },
+    "dynamic_data:cluster_related:identifiers:identifier:@value": {
+        "$count": 590009,
+        "$types": {
+            "string": 590009
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:page": {
+        "$count": 1436041,
+        "$types": {
+            "string": 1436041
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:volume": {
+        "$count": 1411366,
+        "$types": {
+            "string": 1411366
+        }
+    },
+    "dynamic_data:ic_related:oases:oas": {
+        "$count": 8273608,
+        "$schemaEntry": {
+            "$count": 24302024,
+            "@type": {
+                "$count": 24302024,
+                "$types": {
+                    "string": 24302024
+                }
+            }
+        },
+        "$types": {
+            "list": 8273608
+        }
+    },
+    "static_data:summary:names:name:suffix": {
+        "$count": 351520,
+        "$types": {
+            "string": 351520
+        }
+    },
+    "static_data:summary:pub_info:@special_issue": {
+        "$count": 2009374,
+        "$types": {
+            "string": 2009374
+        }
+    },
+    "static_data:summary:pub_info:@supplement": {
+        "$count": 5037582,
+        "$types": {
+            "string": 5037582
+        }
+    },
+    "static_data:item:keywords_plus:@count": {
+        "$count": 35749008,
+        "$types": {
+            "string": 35749008
+        }
+    },
+    "static_data:item:keywords_plus:keyword": {
+        "$count": 35749008,
+        "$types": {
+            "list": 31381585,
+            "string": 4367423
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedTitle": {
+        "$count": 984580,
+        "$types": {
+            "string": 984580
+        }
+    },
+    "static_data:summary:names:name:@reprint": {
+        "$count": 10306356,
+        "$types": {
+            "string": 10306356
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:@count": {
+        "$count": 55941474,
+        "$types": {
+            "string": 55941474
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:@addr_no": {
+        "$count": 52922901,
+        "$types": {
+            "string": 52922901
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:full_address": {
+        "$count": 52922901,
+        "$types": {
+            "string": 52922901
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:organizations:@count": {
+        "$count": 52151727,
+        "$types": {
+            "string": 52151727
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:organizations:organization": {
+        "$count": 52137469,
+        "$schemaEntry": {
+            "$count": 59529581,
+            "@pref": {
+                "$count": 59529581,
+                "$types": {
+                    "string": 59529581
+                }
+            },
+            "#text": {
+                "$count": 59529581,
+                "$types": {
+                    "string": 59529581
+                }
+            }
+        },
+        "$types": {
+            "string": 6552953,
+            "list": 45584516
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:suborganizations:@count": {
+        "$count": 34541284,
+        "$types": {
+            "string": 34541284
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:suborganizations:suborganization": {
+        "$count": 34541284,
+        "$types": {
+            "string": 22505724,
+            "list": 12035560
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:city": {
+        "$count": 52922900,
+        "$types": {
+            "string": 52922900
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:state": {
+        "$count": 25250175,
+        "$types": {
+            "string": 25250175
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:country": {
+        "$count": 52922901,
+        "$types": {
+            "string": 52922901
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:@count": {
+        "$count": 52921333,
+        "$types": {
+            "string": 52921333
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:@seq_no": {
+        "$count": 52455288,
+        "$types": {
+            "string": 52455288
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:@role": {
+        "$count": 52455288,
+        "$types": {
+            "string": 52455288
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:@reprint": {
+        "$count": 52417865,
+        "$types": {
+            "string": 52417865
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:@addr_no": {
+        "$count": 47703071,
+        "$types": {
+            "string": 47703071
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:display_name": {
+        "$count": 52452938,
+        "$types": {
+            "string": 52452938
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:full_name": {
+        "$count": 52452938,
+        "$types": {
+            "string": 52452938
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:wos_standard": {
+        "$count": 52455288,
+        "$types": {
+            "string": 52455288
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:first_name": {
+        "$count": 51505326,
+        "$types": {
+            "string": 51505326
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:last_name": {
+        "$count": 52412302,
+        "$types": {
+            "string": 52412302
+        }
+    },
+    "static_data:fullrecord_metadata:languages:language": {
+        "$count": 5569,
+        "$schemaEntry": {
+            "$count": 11517,
+            "@type": {
+                "$count": 11517,
+                "$types": {
+                    "string": 11517
+                }
+            },
+            "#text": {
+                "$count": 11517,
+                "$types": {
+                    "string": 11517
+                }
+            }
+        },
+        "$types": {
+            "list": 5569
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_languages:language": {
+        "$count": 5569,
+        "$schemaEntry": {
+            "$count": 11517,
+            "@type": {
+                "$count": 11517,
+                "$types": {
+                    "string": 11517
+                }
+            },
+            "#text": {
+                "$count": 11517,
+                "$types": {
+                    "string": 11517
+                }
+            },
+            "@status": {
+                "$count": 71,
+                "$types": {
+                    "string": 71
+                }
+            }
+        },
+        "$types": {
+            "list": 5569
+        }
+    },
+    "static_data:contributors:@count": {
+        "$count": 30463980,
+        "$types": {
+            "string": 30463980
+        }
+    },
+    "static_data:contributors:contributor:name:@seq_no": {
+        "$count": 14872990,
+        "$types": {
+            "string": 14872990
+        }
+    },
+    "static_data:contributors:contributor:name:@role": {
+        "$count": 14872990,
+        "$types": {
+            "string": 14872990
+        }
+    },
+    "static_data:contributors:contributor:name:@r_id": {
+        "$count": 9444368,
+        "$types": {
+            "string": 9444368
+        }
+    },
+    "static_data:contributors:contributor:name:display_name": {
+        "$count": 14843604,
+        "$types": {
+            "string": 14843604
+        }
+    },
+    "static_data:contributors:contributor:name:full_name": {
+        "$count": 14843604,
+        "$types": {
+            "string": 14843604
+        }
+    },
+    "static_data:contributors:contributor:name:first_name": {
+        "$count": 14806824,
+        "$types": {
+            "string": 14806824
+        }
+    },
+    "static_data:contributors:contributor:name:last_name": {
+        "$count": 14745560,
+        "$types": {
+            "string": 14745560
+        }
+    },
+    "static_data:contributors:contributor:name:@orcid_id": {
+        "$count": 11454947,
+        "$types": {
+            "string": 11454947
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:patent_no": {
+        "$count": 1861,
+        "$types": {
+            "string": 1861
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:zip:@location": {
+        "$count": 20752031,
+        "$types": {
+            "string": 20752031
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:zip:#text": {
+        "$count": 20752031,
+        "$types": {
+            "string": 20752031
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:assignee": {
+        "$count": 1267,
+        "$types": {
+            "string": 1267
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedTitle:i": {
+        "$count": 174,
+        "$types": {
+            "string": 144,
+            "list": 30
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedTitle:#text": {
+        "$count": 185,
+        "$types": {
+            "string": 185
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:zip:@location": {
+        "$count": 41697749,
+        "$types": {
+            "string": 41697749
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:zip:#text": {
+        "$count": 41697749,
+        "$types": {
+            "string": 41697749
+        }
+    },
+    "static_data:fullrecord_metadata:abstracts:@count": {
+        "$count": 43549565,
+        "$types": {
+            "string": 43549565
+        }
+    },
+    "static_data:fullrecord_metadata:abstracts:abstract:abstract_text": {
+        "$count": 43549565,
+        "$types": {
+            "string": 43549565
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:fund_text:p": {
+        "$count": 16056694,
+        "$types": {
+            "string": 15813090,
+            "list": 243604
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:@count": {
+        "$count": 17924088,
+        "$types": {
+            "string": 17924088
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:grant:grant_agency": {
+        "$count": 6392510,
+        "$schemaEntry": {
+            "$count": 4582593,
+            "@pref": {
+                "$count": 4582593,
+                "$types": {
+                    "string": 4582593
+                }
+            },
+            "#text": {
+                "$count": 4582593,
+                "$types": {
+                    "string": 4582593
+                }
+            }
+        },
+        "$types": {
+            "string": 2975713,
+            "list": 3416797
+        }
+    },
+    "static_data:contributors:contributor": {
+        "$count": 15590990,
+        "$schemaEntry": {
+            "$count": 51808648,
+            "name:@seq_no": {
+                "$count": 51808648,
+                "$types": {
+                    "string": 51808648
+                }
+            },
+            "name:@role": {
+                "$count": 51808648,
+                "$types": {
+                    "string": 51808648
+                }
+            },
+            "name:@r_id": {
+                "$count": 34044630,
+                "$types": {
+                    "string": 34044630
+                }
+            },
+            "name:display_name": {
+                "$count": 51709191,
+                "$types": {
+                    "string": 51709191
+                }
+            },
+            "name:full_name": {
+                "$count": 51709191,
+                "$types": {
+                    "string": 51709191
+                }
+            },
+            "name:first_name": {
+                "$count": 51609948,
+                "$types": {
+                    "string": 51609948
+                }
+            },
+            "name:last_name": {
+                "$count": 51433835,
+                "$types": {
+                    "string": 51433835
+                }
+            },
+            "name:@orcid_id": {
+                "$count": 40711222,
+                "$types": {
+                    "string": 40711222
+                }
+            }
+        },
+        "$types": {
+            "list": 15590990
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:@count": {
+        "$count": 13434295,
+        "$types": {
+            "string": 13434295
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name": {
+        "$count": 9446358,
+        "$schemaEntry": {
+            "$count": 34693445,
+            "@seq_no": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "@role": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "@reprint": {
+                "$count": 8212918,
+                "$types": {
+                    "string": 8212918
+                }
+            },
+            "@addr_no": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "display_name": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "full_name": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "wos_standard": {
+                "$count": 34693445,
+                "$types": {
+                    "string": 34693445
+                }
+            },
+            "first_name": {
+                "$count": 33800920,
+                "$types": {
+                    "string": 33800920
+                }
+            },
+            "last_name": {
+                "$count": 34673790,
+                "$types": {
+                    "string": 34673790
+                }
+            },
+            "suffix": {
+                "$count": 125282,
+                "$types": {
+                    "string": 125282
+                }
+            },
+            "@r_id": {
+                "$count": 4738338,
+                "$types": {
+                    "string": 4738338
+                }
+            },
+            "email_addr": {
+                "$count": 11364560,
+                "$types": {
+                    "string": 11364560
+                }
+            },
+            "@r_id_tr": {
+                "$count": 677,
+                "$types": {
+                    "string": 677
+                }
+            },
+            "@orcid_id_tr": {
+                "$count": 696707,
+                "$types": {
+                    "string": 696707
+                }
+            }
+        },
+        "$types": {
+            "list": 9446358
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@seq_no": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@role": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@reprint": {
+        "$count": 3525789,
+        "$types": {
+            "string": 3525789
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@addr_no": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:display_name": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:full_name": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:wos_standard": {
+        "$count": 3987937,
+        "$types": {
+            "string": 3987937
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:first_name": {
+        "$count": 3942452,
+        "$types": {
+            "string": 3942452
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:last_name": {
+        "$count": 3984724,
+        "$types": {
+            "string": 3984724
+        }
+    },
+    "static_data:summary:names:name:@addr_no": {
+        "$count": 3613186,
+        "$types": {
+            "string": 3613186
+        }
+    },
+    "static_data:fullrecord_metadata:normalized_languages:language:@status": {
+        "$count": 10637,
+        "$types": {
+            "string": 10637
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:doi": {
+        "$count": 399777,
+        "$types": {
+            "string": 399777
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:grant": {
+        "$count": 11478013,
+        "$schemaEntry": {
+            "$count": 39350704,
+            "grant_agency": {
+                "$count": 38926825,
+                "$schemaEntry": {
+                    "$count": 38119461,
+                    "@pref": {
+                        "$count": 38119461,
+                        "$types": {
+                            "string": 38119461
+                        }
+                    },
+                    "#text": {
+                        "$count": 38119461,
+                        "$types": {
+                            "string": 38119461
+                        }
+                    }
+                },
+                "$types": {
+                    "string": 16679769,
+                    "list": 22247056
+                }
+            },
+            "grant_ids:@count": {
+                "$count": 24830864,
+                "$types": {
+                    "string": 24830864
+                }
+            },
+            "grant_ids:grant_id": {
+                "$count": 24830864,
+                "$types": {
+                    "string": 20077307,
+                    "list": 4753557
+                }
+            },
+            "@grant_source": {
+                "$count": 6257928,
+                "$types": {
+                    "string": 6257928
+                }
+            }
+        },
+        "$types": {
+            "list": 11478013
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:street": {
+        "$count": 27350025,
+        "$types": {
+            "string": 27350025
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:suffix": {
+        "$count": 501975,
+        "$types": {
+            "string": 501975
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:email_addr": {
+        "$count": 27880984,
+        "$types": {
+            "string": 27880984
+        }
+    },
+    "static_data:fullrecord_metadata:keywords:@count": {
+        "$count": 30504070,
+        "$types": {
+            "string": 30504070
+        }
+    },
+    "static_data:fullrecord_metadata:keywords:keyword": {
+        "$count": 30504070,
+        "$types": {
+            "list": 30422304,
+            "string": 81766
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:grant:@grant_source": {
+        "$count": 405184,
+        "$types": {
+            "string": 405184
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:grant:grant_ids:@count": {
+        "$count": 4124376,
+        "$types": {
+            "string": 4124376
+        }
+    },
+    "static_data:fullrecord_metadata:fund_ack:grants:grant:grant_ids:grant_id": {
+        "$count": 4124375,
+        "$types": {
+            "string": 3359036,
+            "list": 765339
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedTitle:sub": {
+        "$count": 10,
+        "$types": {
+            "string": 7,
+            "list": 3
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name:@display": {
+        "$count": 10242901,
+        "$types": {
+            "string": 10242901
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:street": {
+        "$count": 6348141,
+        "$types": {
+            "string": 6348141
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:address_spec:zip": {
+        "$count": 371247,
+        "$schemaEntry": {
+            "$count": 742494,
+            "@location": {
+                "$count": 742494,
+                "$types": {
+                    "string": 742494
+                }
+            },
+            "#text": {
+                "$count": 742494,
+                "$types": {
+                    "string": 742494
+                }
+            }
+        },
+        "$types": {
+            "list": 371247
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:zip": {
+        "$count": 803148,
+        "$schemaEntry": {
+            "$count": 1606297,
+            "@location": {
+                "$count": 1606297,
+                "$types": {
+                    "string": 1606297
+                }
+            },
+            "#text": {
+                "$count": 1606297,
+                "$types": {
+                    "string": 1606297
+                }
+            }
+        },
+        "$types": {
+            "list": 803148
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:suffix": {
+        "$count": 23357,
+        "$types": {
+            "string": 23357
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@r_id": {
+        "$count": 449889,
+        "$types": {
+            "string": 449889
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name": {
+        "$count": 3018573,
+        "$schemaEntry": {
+            "$count": 7119669,
+            "address_spec:@addr_no": {
+                "$count": 7119669,
+                "$types": {
+                    "string": 7119669
+                }
+            },
+            "address_spec:full_address": {
+                "$count": 7119669,
+                "$types": {
+                    "string": 7119669
+                }
+            },
+            "address_spec:organizations:@count": {
+                "$count": 7094285,
+                "$types": {
+                    "string": 7094285
+                }
+            },
+            "address_spec:organizations:organization": {
+                "$count": 7094285,
+                "$schemaEntry": {
+                    "$count": 7907157,
+                    "@pref": {
+                        "$count": 7907157,
+                        "$types": {
+                            "string": 7907157
+                        }
+                    },
+                    "#text": {
+                        "$count": 7907157,
+                        "$types": {
+                            "string": 7907157
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 6151971,
+                    "string": 942314
+                }
+            },
+            "address_spec:suborganizations:@count": {
+                "$count": 5966852,
+                "$types": {
+                    "string": 5966852
+                }
+            },
+            "address_spec:suborganizations:suborganization": {
+                "$count": 5966852,
+                "$types": {
+                    "string": 3785376,
+                    "list": 2181476
+                }
+            },
+            "address_spec:city": {
+                "$count": 7119669,
+                "$types": {
+                    "string": 7119669
+                }
+            },
+            "address_spec:state": {
+                "$count": 2916073,
+                "$types": {
+                    "string": 2916073
+                }
+            },
+            "address_spec:country": {
+                "$count": 7119669,
+                "$types": {
+                    "string": 7119669
+                }
+            },
+            "names:@count": {
+                "$count": 7119663,
+                "$types": {
+                    "string": 7119663
+                }
+            },
+            "names:name:@seq_no": {
+                "$count": 6621731,
+                "$types": {
+                    "string": 6621731
+                }
+            },
+            "names:name:@role": {
+                "$count": 6621731,
+                "$types": {
+                    "string": 6621731
+                }
+            },
+            "names:name:@reprint": {
+                "$count": 6621687,
+                "$types": {
+                    "string": 6621687
+                }
+            },
+            "names:name:display_name": {
+                "$count": 6621687,
+                "$types": {
+                    "string": 6621687
+                }
+            },
+            "names:name:full_name": {
+                "$count": 6621687,
+                "$types": {
+                    "string": 6621687
+                }
+            },
+            "names:name:wos_standard": {
+                "$count": 6621731,
+                "$types": {
+                    "string": 6621731
+                }
+            },
+            "names:name:first_name": {
+                "$count": 6540683,
+                "$types": {
+                    "string": 6540683
+                }
+            },
+            "names:name:last_name": {
+                "$count": 6621687,
+                "$types": {
+                    "string": 6621687
+                }
+            },
+            "address_spec:zip:@location": {
+                "$count": 4893368,
+                "$types": {
+                    "string": 4893368
+                }
+            },
+            "address_spec:zip:#text": {
+                "$count": 4893368,
+                "$types": {
+                    "string": 4893368
+                }
+            },
+            "names:name:@addr_no": {
+                "$count": 6621664,
+                "$types": {
+                    "string": 6621664
+                }
+            },
+            "address_spec:street": {
+                "$count": 1658889,
+                "$types": {
+                    "string": 1658889
+                }
+            },
+            "address_spec:zip": {
+                "$count": 24558,
+                "$schemaEntry": {
+                    "$count": 49116,
+                    "@location": {
+                        "$count": 49116,
+                        "$types": {
+                            "string": 49116
+                        }
+                    },
+                    "#text": {
+                        "$count": 49116,
+                        "$types": {
+                            "string": 49116
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 24558
+                }
+            },
+            "names:name:suffix": {
+                "$count": 33658,
+                "$types": {
+                    "string": 33658
+                }
+            },
+            "names:name:email_addr": {
+                "$count": 5120801,
+                "$types": {
+                    "string": 5120801
+                }
+            },
+            "names:name": {
+                "$count": 497932,
+                "$schemaEntry": {
+                    "$count": 1037804,
+                    "@seq_no": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "@role": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "@reprint": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "@addr_no": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "display_name": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "full_name": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "wos_standard": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "first_name": {
+                        "$count": 1026732,
+                        "$types": {
+                            "string": 1026732
+                        }
+                    },
+                    "last_name": {
+                        "$count": 1037804,
+                        "$types": {
+                            "string": 1037804
+                        }
+                    },
+                    "email_addr": {
+                        "$count": 566405,
+                        "$types": {
+                            "string": 566405
+                        }
+                    },
+                    "suffix": {
+                        "$count": 2743,
+                        "$types": {
+                            "string": 2743
+                        }
+                    }
+                },
+                "$types": {
+                    "list": 497932
+                }
+            }
+        },
+        "$types": {
+            "list": 3018573
+        }
+    },
+    "static_data:summary:conferences:@count": {
+        "$count": 12345401,
+        "$types": {
+            "string": 12345401
+        }
+    },
+    "static_data:summary:conferences:conference:conf_infos:@count": {
+        "$count": 12338179,
+        "$types": {
+            "string": 12338179
+        }
+    },
+    "static_data:summary:conferences:conference:conf_infos:conf_info": {
+        "$count": 12338179,
+        "$types": {
+            "string": 12338179
+        }
+    },
+    "static_data:summary:conferences:conference:conf_titles:@count": {
+        "$count": 12338179,
+        "$types": {
+            "string": 12338179
+        }
+    },
+    "static_data:summary:conferences:conference:conf_titles:conf_title": {
+        "$count": 12338179,
+        "$types": {
+            "string": 12338179
+        }
+    },
+    "static_data:summary:conferences:conference:conf_dates:@count": {
+        "$count": 12338178,
+        "$types": {
+            "string": 12338178
+        }
+    },
+    "static_data:summary:conferences:conference:conf_dates:conf_date:@conf_start": {
+        "$count": 12338178,
+        "$types": {
+            "string": 12338178
+        }
+    },
+    "static_data:summary:conferences:conference:conf_dates:conf_date:@conf_end": {
+        "$count": 11624838,
+        "$types": {
+            "string": 11624838
+        }
+    },
+    "static_data:summary:conferences:conference:conf_dates:conf_date:#text": {
+        "$count": 12338178,
+        "$types": {
+            "string": 12338178
+        }
+    },
+    "static_data:summary:conferences:conference:conf_locations:@count": {
+        "$count": 12338179,
+        "$types": {
+            "string": 12338179
+        }
+    },
+    "static_data:summary:conferences:conference:conf_locations:conf_location:conf_city": {
+        "$count": 11993427,
+        "$types": {
+            "string": 11993427
+        }
+    },
+    "static_data:summary:conferences:conference:conf_locations:conf_location:conf_state": {
+        "$count": 12338178,
+        "$types": {
+            "string": 12338178
+        }
+    },
+    "static_data:summary:conferences:conference:sponsors:@count": {
+        "$count": 9697740,
+        "$types": {
+            "string": 9697740
+        }
+    },
+    "static_data:summary:conferences:conference:sponsors:sponsor": {
+        "$count": 9697740,
+        "$types": {
+            "string": 4680697,
+            "list": 5017043
+        }
+    },
+    "static_data:item:book_pages": {
+        "$count": 9112502,
+        "$types": {
+            "string": 9112502
+        }
+    },
+    "static_data:item:book_desc:bk_binding": {
+        "$count": 7617563,
+        "$types": {
+            "string": 7617563
+        }
+    },
+    "static_data:item:book_desc:bk_publisher": {
+        "$count": 7617570,
+        "$types": {
+            "string": 7617570
+        }
+    },
+    "static_data:item:book_desc:bk_prepay": {
+        "$count": 7592678,
+        "$types": {
+            "string": 7592678
+        }
+    },
+    "static_data:item:book_notes:@count": {
+        "$count": 8756851,
+        "$types": {
+            "string": 8756851
+        }
+    },
+    "static_data:item:book_notes:book_note": {
+        "$count": 8756851,
+        "$types": {
+            "list": 5800112,
+            "string": 2956739
+        }
+    },
+    "static_data:summary:conferences:conference:conf_locations:conf_location:conf_host": {
+        "$count": 1430160,
+        "$types": {
+            "string": 1430160
+        }
+    },
+    "static_data:summary:conferences:conference:@conf_id": {
+        "$count": 11817385,
+        "$types": {
+            "string": 11817385
+        }
+    },
+    "static_data:item:book_desc:bk_price:@volumes": {
+        "$count": 257191,
+        "$types": {
+            "string": 257191
+        }
+    },
+    "static_data:item:book_desc:bk_price:@amount": {
+        "$count": 369399,
+        "$types": {
+            "string": 369399
+        }
+    },
+    "static_data:item:book_desc:bk_ordering": {
+        "$count": 1027316,
+        "$types": {
+            "string": 1027316
+        }
+    },
+    "static_data:item:book_desc:bk_price:@currency": {
+        "$count": 438990,
+        "$types": {
+            "string": 438990
+        }
+    },
+    "static_data:summary:names:name:email_addr": {
+        "$count": 3910556,
+        "$types": {
+            "string": 3910556
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:email_addr": {
+        "$count": 2290498,
+        "$types": {
+            "string": 2290498
+        }
+    },
+    "static_data:item:book_desc": {
+        "$count": 1599796,
+        "$schemaEntry": {
+            "$count": 3301704,
+            "bk_binding": {
+                "$count": 3301704,
+                "$types": {
+                    "string": 3301704
+                }
+            },
+            "bk_publisher": {
+                "$count": 3301704,
+                "$types": {
+                    "string": 3301704
+                }
+            },
+            "bk_prepay": {
+                "$count": 3244113,
+                "$types": {
+                    "string": 3244113
+                }
+            },
+            "bk_ordering": {
+                "$count": 747332,
+                "$types": {
+                    "string": 747332
+                }
+            },
+            "bk_price:@currency": {
+                "$count": 6674,
+                "$types": {
+                    "string": 6674
+                }
+            },
+            "bk_price:@amount": {
+                "$count": 15481,
+                "$types": {
+                    "string": 15481
+                }
+            },
+            "bk_price:@desc": {
+                "$count": 8958,
+                "$types": {
+                    "string": 8958
+                }
+            },
+            "bk_price:@volumes": {
+                "$count": 5908,
+                "$types": {
+                    "string": 5908
+                }
+            }
+        },
+        "$types": {
+            "list": 1599796
+        }
+    },
+    "static_data:item:book_desc:bk_price:@desc": {
+        "$count": 90732,
+        "$types": {
+            "string": 90732
+        }
+    },
+    "static_data:item:book_chapters": {
+        "$count": 122470,
+        "$types": {
+            "string": 122470
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:organizations:organization:@pref": {
+        "$count": 3280,
+        "$types": {
+            "string": 3280
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:address_spec:organizations:organization:#text": {
+        "$count": 3280,
+        "$types": {
+            "string": 3280
+        }
+    },
+    "static_data:summary:conferences:conference": {
+        "$count": 7222,
+        "$schemaEntry": {
+            "$count": 14466,
+            "@conf_id": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_infos:@count": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_infos:conf_info": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_titles:@count": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_titles:conf_title": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_dates:@count": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_dates:conf_date:@conf_start": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_dates:conf_date:@conf_end": {
+                "$count": 12930,
+                "$types": {
+                    "string": 12930
+                }
+            },
+            "conf_dates:conf_date:#text": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_locations:@count": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "conf_locations:conf_location:conf_city": {
+                "$count": 14125,
+                "$types": {
+                    "string": 14125
+                }
+            },
+            "conf_locations:conf_location:conf_state": {
+                "$count": 14466,
+                "$types": {
+                    "string": 14466
+                }
+            },
+            "sponsors:@count": {
+                "$count": 10061,
+                "$types": {
+                    "string": 10061
+                }
+            },
+            "sponsors:sponsor": {
+                "$count": 10061,
+                "$types": {
+                    "list": 4975,
+                    "string": 5086
+                }
+            },
+            "conf_locations:conf_location:conf_host": {
+                "$count": 1261,
+                "$types": {
+                    "string": 1261
+                }
+            }
+        },
+        "$types": {
+            "list": 7222
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:citedTitle:sup": {
+        "$count": 2,
+        "$types": {
+            "string": 1,
+            "list": 1
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:art_no": {
+        "$count": 159,
+        "$types": {
+            "string": 159
+        }
+    },
+    "static_data:fullrecord_metadata:reprint_addresses:address_name:names:name": {
+        "$count": 466045,
+        "$schemaEntry": {
+            "$count": 962231,
+            "@seq_no": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "@role": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "@reprint": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "@addr_no": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "display_name": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "full_name": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "wos_standard": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "first_name": {
+                "$count": 951258,
+                "$types": {
+                    "string": 951258
+                }
+            },
+            "last_name": {
+                "$count": 962231,
+                "$types": {
+                    "string": 962231
+                }
+            },
+            "email_addr": {
+                "$count": 485452,
+                "$types": {
+                    "string": 485452
+                }
+            },
+            "suffix": {
+                "$count": 1922,
+                "$types": {
+                    "string": 1922
+                }
+            }
+        },
+        "$types": {
+            "list": 466045
+        }
+    },
+    "static_data:summary:names:name:@orcid_id_tr": {
+        "$count": 196738,
+        "$types": {
+            "string": 196738
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@orcid_id_tr": {
+        "$count": 170895,
+        "$types": {
+            "string": 170895
+        }
+    },
+    "static_data:summary:names:name:@r_id_tr": {
+        "$count": 504,
+        "$types": {
+            "string": 504
+        }
+    },
+    "static_data:fullrecord_metadata:addresses:address_name:names:name:@r_id_tr": {
+        "$count": 462,
+        "$types": {
+            "string": 462
+        }
+    },
+    "static_data:summary:pub_info:@early_access_date": {
+        "$count": 1496269,
+        "$types": {
+            "string": 1496269
+        }
+    },
+    "static_data:summary:pub_info:@early_access_month": {
+        "$count": 1496269,
+        "$types": {
+            "string": 1496269
+        }
+    },
+    "static_data:summary:pub_info:@early_access_year": {
+        "$count": 1496269,
+        "$types": {
+            "string": 1496269
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:physicalSection:@physicalLocation": {
+        "$count": 163,
+        "$types": {
+            "string": 163
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:physicalSection:#text": {
+        "$count": 67,
+        "$types": {
+            "string": 67
+        }
+    },
+    "static_data:fullrecord_metadata:references:reference:physicalSection": {
+        "$count": 34,
+        "$schemaEntry": {
+            "$count": 116,
+            "@physicalLocation": {
+                "$count": 116,
+                "$types": {
+                    "string": 116
+                }
+            },
+            "#text": {
+                "$count": 71,
+                "$types": {
+                    "string": 71
+                }
+            }
+        },
+        "$types": {
+            "list": 34
+        }
+    }
+}
