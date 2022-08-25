@@ -294,9 +294,9 @@ def getConferencesLocations(conferencesData):
     for location in locationsData:
         locationText = ""
         if( "conf_city" in location):
-            locationText += location["conf_city"]
+            locationText += getFlat(location,["conf_city"],forceString=True)
         if( "conf_state" in location):
-            locationText += ", " + location["conf_state"]
+            locationText += ", " + getFlat(location,["conf_state"],forceString=True)
         locations.append(locationText)
     return locations
 
@@ -316,7 +316,7 @@ def getTitles(wosEntry):
 
 
 def getTitle(wosEntry):
-    return getTitles(wosEntry)["item"]
+    return getFlat(getTitles(wosEntry),["item"],forceString=True)
 
 allowedSourceTitles = {'source', 'source_abbrev', 'abbrev_iso', 'abbrev_11', 'abbrev_29'}
 def getSources(wosEntry):
@@ -424,11 +424,11 @@ def getPMID(ids):
 def getPMCID(ids):
     return getFlat(ids,["pmcid"], forceString=True)
 
-def getSource29Abbreviation(ids):
-    return getFlat(ids,["abbrev_29"], forceString=True)
+def getSource29Abbreviation(sources):
+    return getFlat(sources,["abbrev_29"], forceString=True)
 
-def getSourceISOAbbreviation(ids):
-    return getFlat(ids,["abbrev_iso"], forceString=True)
+def getSourceISOAbbreviation(sources):
+    return getFlat(sources,["abbrev_iso"], forceString=True)
 
 def getPublicationInfo(wosEntry):
     return getFlat(wosEntry["data"],["static_data","summary","pub_info"])
@@ -532,8 +532,8 @@ def getAllFields(wosEntry):
     fieldData["AB"]  =  abstract = getAbstract(wosEntry) # Not saved in the CVS
     fieldData["C1R"] =  addressesData = getAddressesAndAuthors(wosEntry)
     fieldData["C1"]  =  addresses = formatAddressesWOS(addressesData)
-    fieldData["RPR"] =  repringData = getAddressesAndAuthors(wosEntry, forceReprint=True)
-    fieldData["RP"]  =  reprintAddresses = formatAddressesWOS(repringData)
+    fieldData["RPR"] =  reprintData = getAddressesAndAuthors(wosEntry, forceReprint=True)
+    fieldData["RP"]  =  reprintAddresses = formatAddressesWOS(reprintData)
     fieldData["EM"]  =  emailAddresses = getAuthorNames(authorData,"email_addr")
     # fieldData["RI"]  =  # researcherID  #TODO
     # fieldData["OI"]  =  # orcid #TODO
@@ -550,8 +550,8 @@ def getAllFields(wosEntry):
     fieldData["SN"]  =  issn = getISSN(ids)
     fieldData["EI"]  =  eissn = getEISSN(ids)
     fieldData["BN"]  =  isbn = getISBN(ids)
-    fieldData["J9"]  =  source29Abbreviation = getSource29Abbreviation(ids)
-    fieldData["JI"]  =  sourceISOAbbreviation = getSourceISOAbbreviation(ids)
+    fieldData["J9"]  =  source29Abbreviation = getSource29Abbreviation(sourcesData)
+    fieldData["JI"]  =  sourceISOAbbreviation = getSourceISOAbbreviation(sourcesData)
     fieldData["PD"]  =  publicationMonth = getPublicationMonth(publicationInfo)
     fieldData["PY"]  =  publicationYear = getPublicationYear(publicationInfo)
     fieldData["VL"]  =  publicationVolume = getPublicationVolume(publicationInfo)
@@ -582,5 +582,76 @@ def getAllFields(wosEntry):
     return fieldData
 
 
-
+def getScheme(valid=None,invalid=None):
+    schemeFields = OrderedDict()
+    schemeFields["PIR"] = ("publicationInfo","a")
+    schemeFields["PT"] = ("publicationType","s")
+    schemeFields["ADR"] = ("authorData","a")
+    schemeFields["AU"] = ("authorNames","S")
+    schemeFields["BE"] = ("bookEditors","S")
+    schemeFields["TI"] = ("Title","s")
+    schemeFields["SOR"] = ("sourcesData","a")
+    schemeFields["SO"] = ("publicationName","s")
+    schemeFields["SE"] = ("bookSeriesTitle","s")
+    schemeFields["LA"] = ("languages","S")
+    schemeFields["DT"] = ("docTypes","S")
+    schemeFields["CT"] = ("conferenceTitles","S")
+    schemeFields["CY"] = ("conferenceDates","S")
+    schemeFields["CL"] = ("conferenceLocations","S")
+    schemeFields["SP"] = ("conferenceSponsors","S")
+    schemeFields["HO"] = ("conferenceHosts","S")
+    schemeFields["DE"] = ("keywords","S")
+    schemeFields["ID"] = ("keywordsPlus","S")
+    schemeFields["AB"] = ("abstract","S")
+    schemeFields["C1R"] = ("addressesData","a")
+    schemeFields["C1"] = ("addresses","S")
+    schemeFields["RPR"] = ("repringData","a")
+    schemeFields["RP"] = ("reprintAddresses","S")
+    schemeFields["EM"] = ("emailAddresses","S")
+    schemeFields["FUR"] = ("fundingData","a")
+    schemeFields["FU"] = ("funding","S")
+    schemeFields["FX"] = ("fundingText","S")
+    schemeFields["CRR"] = ("referencesData","a")
+    schemeFields["CI"] = ("referencesUIDs","S")
+    schemeFields["PU"] = ("publisherName","s")
+    schemeFields["PI"] = ("publisherCity","s")
+    schemeFields["PA"] = ("publisherAddress","s")
+    schemeFields["IDR"] = ("ids","a")
+    schemeFields["SN"] = ("ISSN","s")
+    schemeFields["EI"] = ("EISSN","s")
+    schemeFields["BN"] = ("ISBN","s")
+    schemeFields["J9"] = ("source29Abbreviation","s")
+    schemeFields["JI"] = ("sourceISOAbbreviation","s")
+    schemeFields["PD"] = ("publicationMonth","s")
+    schemeFields["PY"] = ("publicationYear","s")
+    schemeFields["VL"] = ("publicationVolume","s")
+    schemeFields["IS"] = ("publicationIssue","s")
+    schemeFields["PN"] = ("publicationPartNumber","s")
+    schemeFields["SU"] = ("publicationSupplement","s")
+    schemeFields["SI"] = ("publicationSpecialIssue","s")
+    # schemeFields["MA"] = ("meetingAbstract","S")
+    schemeFields["BP"] = ("publicationPageBegin","s")
+    schemeFields["EP"] = ("publicationPageEnd","s")
+    schemeFields["AR"] = ("publicationArticleNumber","s")
+    schemeFields["DI"] = ("DOI","s")
+    # schemeFields["DL"] = ("URL","s")
+    # schemeFields["D2"] = ("BookDOI","s")
+    schemeFields["EA"] = ("publicationEarlyAccessMonth","s")
+    schemeFields["EB"] = ("publicationEarlyAccessYear","s")
+    schemeFields["PG"] = ("publicationPageCount","s")
+    schemeFields["WCR"] = ("categoryInfo","a")
+    schemeFields["WC"] = ("subjectCategories","S")
+    schemeFields["WE"] = ("WOSEdition","S")
+    schemeFields["SC"] = ("researchAreas","S")
+    # schemeFields["GA"] = ("documentDeliveryNumber","s")
+    schemeFields["PM"] = ("PMID","s")
+    # schemeFields["HC"] = ("citedHalfLife","s")
+    # schemeFields["HP"] = ("citedReferencesCount","s")
+    schemeFields["OA"] = ("openAccess","S")
+    schemeFields["UT"] = ("UID","s")
+    if(valid is not None):
+        schemeFields = {k:v for k,v in schemeFields.items() if k in valid}
+    if(invalid is not None):
+        schemeFields = {k:v for k,v in schemeFields.items() if k not in invalid}
+    return schemeFields
 
