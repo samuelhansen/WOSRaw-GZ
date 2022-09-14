@@ -52,10 +52,6 @@ def create(WOSPath, WOSArchivePath):
         xmlFileName,WOSZipPath, = arguments
         baseName = WOSZipPath.stem
         
-        with gzip.open('/Some/file/somewhere.gz', 'rb') as f:
-    file_content = f.read()
-        
-        
         with gzip.GzipFile(WOSZipPath,mode="r") as xmlfd:
             xmlData = xmlfd.read()
         dataDict = xmltodict.parse(xmlData,dict_constructor=dict)["records"]["REC"]
