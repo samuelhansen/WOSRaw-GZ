@@ -51,10 +51,13 @@ def create(WOSPath, WOSArchivePath):
         import xmltodict
         xmlFileName,WOSZipPath, = arguments
         baseName = WOSZipPath.stem
-        with zipfile.ZipFile(WOSZipPath, 'r') as zipfd:
-            with zipfd.open(xmlFileName) as xmlgzfd:
-                with gzip.GzipFile(fileobj=xmlgzfd,mode="r") as xmlfd:
-                    xmlData = xmlfd.read()
+        
+        with gzip.open('/Some/file/somewhere.gz', 'rb') as f:
+    file_content = f.read()
+        
+        
+        with gzip.GzipFile(WOSZipPath,mode="r") as xmlfd:
+            xmlData = xmlfd.read()
         dataDict = xmltodict.parse(xmlData,dict_constructor=dict)["records"]["REC"]
         for rec in dataDict:
             rec["origin"] = baseName
