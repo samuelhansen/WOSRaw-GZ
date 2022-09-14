@@ -40,7 +40,7 @@ def create(WOSPath, WOSArchivePath):
         ...
 
     """
-    WOSZipPaths = sorted(list(WOSPath.glob("*.zip")))
+    WOSZipPaths = sorted(list(WOSPath.glob("*.gz")))
 
     scheme = [
         ("UID", "s"),
