@@ -4,7 +4,7 @@
 # Installation
 The package can be installed by using the following command:
 ```bash
-python -m pip install git+https://github.com/filipinascimento/WOSRaw.git
+python -m pip install git+https://github.com/samuelhansen/WOSRaw-GZ.git
 ```
 The package may requires an updated version of `dbgz`:
 
