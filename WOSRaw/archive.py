@@ -19,6 +19,18 @@ import multiprocessing as mp
 # #Path to the WoS dbgz archive
 # WOSSavePath = Path("/raw/WoS_2022_DBGZ/WoS_2022_All.dbgz")
 
+def parseWOSXML(arguments):
+        import xmltodict
+        xmlFileName,WOSZipPath, = arguments
+        baseName = WOSZipPath.stem
+        
+        with gzip.GzipFile(WOSZipPath,mode="r") as xmlfd:
+            xmlData = xmlfd.read()
+        dataDict = xmltodict.parse(xmlData,dict_constructor=dict)["records"]["REC"]
+        for rec in dataDict:
+            rec["origin"] = baseName
+        return dataDict
+
 def create(WOSPath, WOSArchivePath):
     """
     Create a dbgz archive from the raw WOS XML files.
@@ -47,19 +59,7 @@ def create(WOSPath, WOSArchivePath):
         ("data", "a"),
     ]
 
-    def parseWOSXML(arguments):
-        import xmltodict
-        xmlFileName,WOSZipPath, = arguments
-        baseName = WOSZipPath.stem
-        
-        with gzip.GzipFile(WOSZipPath,mode="r") as xmlfd:
-            xmlData = xmlfd.read()
-        dataDict = xmltodict.parse(xmlData,dict_constructor=dict)["records"]["REC"]
-        for rec in dataDict:
-            rec["origin"] = baseName
-        return dataDict
-
-    num_processors = mp.cpu_count()
+    num_processors = mp.cpu_count()-2
     pool = mp.Pool(processes=num_processors)
     
     with dbgz.DBGZWriter(WOSArchivePath.resolve(), scheme) as dbgzfd:
